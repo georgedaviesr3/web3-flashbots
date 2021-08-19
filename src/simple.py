@@ -31,7 +31,7 @@ print(
 print(
     f"To account {ETH_ACCOUNT_TO.address}: {w3.eth.get_balance(ETH_ACCOUNT_TO.address)}"
 )
-
+"""
 # Setting up an transaction with 1 in gasPrice where we are trying to send
 print("Sending request")
 params: TxParams = {
@@ -103,3 +103,5 @@ assert profit == bribe
 
 # the tx is successful
 print(w3.eth.get_balance(ETH_ACCOUNT_TO.address))
+"""
+print("done")
